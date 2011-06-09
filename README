@@ -1,0 +1,13 @@
+It was proposed one Saturday by a friend of mine to have a coding competition between us. We decided on making an L-System capable of taking input of a char->string rule set and being able to print out the last generation defined by the user. We then had to print out the time it took to calculate the system to that generation. Any language was allowed, and the timeline was 1 hour. Time is in milliseconds.
+
+Results:
+Rules: A->AB, B->A
+
+Name  | Computer  | OS | Language | 10 gen | 27 gen | On time?
+Rob     C2D 2.1     Win    C++       .017     17.91     Yes
+Max     C2D 2.5     Win    C++       .017     23.55     Yes
+Kris    C2D 1.8     Lin    C         .011     20         No
+Aistis  Ci3 2.4     Lin   Haskell    1.3     3440        No
+
+
+Yes I know we were using different computers with different stats, and that the use of the visual studio and GCC/GHC skews the results. But this was simply a fun exercise to see how quickly and efficiently we could implement a text based L-System.
